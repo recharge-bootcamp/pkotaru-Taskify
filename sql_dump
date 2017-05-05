@@ -1,0 +1,16 @@
+create database task_schema;
+use task_schema;
+create table task_information(taskId int auto_increment not null primary key, title varchar(100), description varchar(500),status varchar(20));
+insert into task_information(title,description,status) values('task5','task5 desc','completed');
+insert into task_information(title,description,status) values('task6','task6 desc','completed');
+insert into task_information(title,description,status) values('task7','task7 desc','completed');
+insert into task_information(title,description,status) values('task1','task1 desc','pending');
+insert into task_information(title,description,status) values('task2','task2 desc','pending');
+insert into task_information(title,description,status) values('task3','task3 desc','pending');
+insert into task_information(title,description,status) values('task8','task8 desc','pending');
+insert into task_information(title,description,status) values('task9','task9 desc','pending');
+insert into task_information(title,description,status) values('task10','task10 desc','pending');
+
+create table login(firstname varchar(50), lastname varchar(50),username varchar(50),password varchar(50));
+insert into login(firstname,lastname,username,password)values('prasanthi','kotaru','pkotaru','pkotaru');
+commit;

@@ -1,0 +1,42 @@
+body{
+	color: rgba(0,0,0,.87);
+    direction: ltr;
+    font-family: 'Roboto',arial,sans-serif;
+    font-size: 15px;
+}
+#header{
+	background-color:rgb(255, 187, 0)
+}
+.p_style{
+	font-family :'Product Sans',Arial,sans-serif !important;
+	font-size:22px !important;
+	padding-left: 40px !important;
+	font-weight:bold !important;
+}
+.title-text{
+font-size: 17px !important;
+font-weight: bold !important;
+line-height: 23px !important;
+padding-left: 50px !important;	
+}
+.desc_text{
+	font-size: 17px !important;
+	font-weight: bold !important;
+	line-height: 23px !important;
+	padding-left: 50px !important;
+}
+.table_position{
+	padding-top: 16px !important
+	
+}
+#showTasks{
+	padding-top: 16px !important
+}
+.btns{
+	padding-top: 16px !important
+}
+.sel_menu{
+	
+	padding-top: 16px !important
+	
+}
